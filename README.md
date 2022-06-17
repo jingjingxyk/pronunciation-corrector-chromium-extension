@@ -13,4 +13,3 @@
 2. [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation.git)
 3. [ResourceType](https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/#type-ResourceType)
 4. [pronunciation-corrector](https://github.com/songquanpeng/pronunciation-corrector.git)
-5. [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation.git)
