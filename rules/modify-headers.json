@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "priority": 999,
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://www.youdao.com/"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://www.youdao.com/*",
+      "requestDomains": ["www.youdao.com"],
+      "resourceTypes": ["sub_frame", "main_frame"]
+    }
+  }
+]

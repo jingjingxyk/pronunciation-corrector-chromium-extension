@@ -1,0 +1,4 @@
+.idea
+_metadata/
+node_modules
+package-lock.json

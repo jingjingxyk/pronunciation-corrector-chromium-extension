@@ -1,0 +1,15 @@
+#custom-iframe-box {
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 960px;
+  min-height: 600px;
+}
+#custom-iframe-box-iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  display: none;
+}
