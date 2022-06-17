@@ -1,3 +1,8 @@
+## pronunciation-corrector-chromium-extension
+
+> 为`在线英语发音纠正 ` 实时 显示 单词 释义的chromium 扩展
+
+
 ## chromium 扩展 嵌入有道网页到单词播放页面
 
 ## 参考
