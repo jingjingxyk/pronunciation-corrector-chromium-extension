@@ -21,7 +21,7 @@ let getAndSetIframe = () => {
     iframe = box.querySelector("#custom-iframe-box-iframe");
     iframe.setAttribute('src',"about:blank")
     //iframe.contentDocument.close()
-    //iframe.parentElement.removeChild(iframe)
+    iframe.parentNode.removeChild(iframe)
     iframe = document.createElement("iframe");
     iframe.setAttribute("id", "custom-iframe-box-iframe");
     box.appendChild(iframe);
