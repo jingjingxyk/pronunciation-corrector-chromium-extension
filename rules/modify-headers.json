@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "priority": 999,
+    "priority": 100,
     "action": {
       "type": "modifyHeaders",
-      "responseHeaders": [
+      "requestHeaders": [
         {
           "header": "Referer",
           "operation": "set",
@@ -15,7 +15,58 @@
     "condition": {
       "urlFilter": "https://www.youdao.com/*",
       "requestDomains": ["www.youdao.com"],
-      "resourceTypes": ["sub_frame", "main_frame"]
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket",
+        "webtransport",
+        "webbundle",
+        "other"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 101,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://www.youdao.com/"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "https://dict.youdao.com/*",
+      "requestDomains": ["dict.youdao.com"],
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket",
+        "webtransport",
+        "webbundle",
+        "other"
+      ]
     }
   }
 ]

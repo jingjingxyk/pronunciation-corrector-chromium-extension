@@ -33,6 +33,18 @@
         {
           "header": "cross-origin-embedder-policy-report-only",
           "operation": "remove"
+        },
+        {
+          "header": "Sec-Fetch-Dest",
+          "operation": "remove"
+        },
+        {
+          "header": "Sec-Fetch-Mode",
+          "operation": "remove"
+        },
+        {
+          "header": "Sec-Fetch-Site",
+          "operation": "remove"
         }
       ]
     },

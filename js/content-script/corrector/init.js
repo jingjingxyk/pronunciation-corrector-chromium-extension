@@ -19,13 +19,12 @@ let getAndSetIframe = () => {
     document.body.appendChild(aside);
   } else {
     iframe = box.querySelector("#custom-iframe-box-iframe");
-    iframe.setAttribute('src',"about:blank")
+    iframe.setAttribute("src", "about:blank");
     //iframe.contentDocument.close()
-    iframe.parentNode.removeChild(iframe)
+    iframe.parentNode.removeChild(iframe);
     iframe = document.createElement("iframe");
     iframe.setAttribute("id", "custom-iframe-box-iframe");
     box.appendChild(iframe);
-
   }
   return iframe;
 };
@@ -34,7 +33,7 @@ let init = () => {
   console.log(new URL(location.href));
   let iframe = getAndSetIframe();
   styleConfig();
-
+  console.log(iframe);
   iframe.style.width = document.querySelector(".normal-container").clientWidth;
 
   let audio_player = document.getElementById("player");
@@ -42,12 +41,17 @@ let init = () => {
     //console.log(event)
     let currentWord = document.querySelector("#currentWord").innerText;
     console.log(currentWord);
+    /*
+     // 用于请求API 接口
     chrome.runtime.sendMessage(
       JSON.stringify({ word: currentWord, from: "pronunciation-corrector" }),
       (response) => {
         console.log(response);
       }
     );
+
+     */
+    currentWord = currentWord.toLowerCase();
     iframe.src = `https://www.youdao.com/result?word=${currentWord}&lang=en`;
   });
 };
