@@ -16,21 +16,7 @@
       "urlFilter": "https://www.youdao.com/*",
       "requestDomains": ["www.youdao.com"],
       "resourceTypes": [
-        "main_frame",
-        "sub_frame",
-        "stylesheet",
-        "script",
-        "image",
-        "font",
-        "object",
-        "xmlhttprequest",
-        "ping",
-        "csp_report",
-        "media",
-        "websocket",
-        "webtransport",
-        "webbundle",
-        "other"
+        "sub_frame"
       ]
     }
   },
@@ -51,21 +37,7 @@
       "urlFilter": "https://dict.youdao.com/*",
       "requestDomains": ["dict.youdao.com"],
       "resourceTypes": [
-        "main_frame",
-        "sub_frame",
-        "stylesheet",
-        "script",
-        "image",
-        "font",
-        "object",
-        "xmlhttprequest",
-        "ping",
-        "csp_report",
-        "media",
-        "websocket",
-        "webtransport",
-        "webbundle",
-        "other"
+        "sub_frame"
       ]
     }
   }

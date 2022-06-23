@@ -49,7 +49,7 @@
       },
       {
         "id": "block-request",
-        "enabled": false,
+        "enabled": true,
         "path": "rules/rules_block_1.json"
       }
     ]
