@@ -15,9 +15,7 @@
     "condition": {
       "urlFilter": "https://www.youdao.com/*",
       "requestDomains": ["www.youdao.com"],
-      "resourceTypes": [
-        "sub_frame"
-      ]
+      "resourceTypes": ["sub_frame"]
     }
   },
   {
@@ -36,9 +34,7 @@
     "condition": {
       "urlFilter": "https://dict.youdao.com/*",
       "requestDomains": ["dict.youdao.com"],
-      "resourceTypes": [
-        "sub_frame"
-      ]
+      "resourceTypes": ["sub_frame"]
     }
   }
 ]
